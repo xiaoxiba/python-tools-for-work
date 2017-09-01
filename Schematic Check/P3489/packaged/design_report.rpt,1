@@ -1,0 +1,768 @@
+[INFO] Getopts(d.proj:ini:suiteno:suite:bu:,-proj C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/p3489_a00.cpm -ini C:/Users/kevili/AppData/Local/Temp/dcgui_7.ini -suite PCB -suiteno 0 -bu gpu)
+[INFO] Using cpm file 'C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/p3489_a00.cpm'.
+[INFO] Using checks preset file : S:\eda\app\prd\cadence_setup\util\DesignChecker\nv_CCpresets.ini
+[INFO] Using  preset file : S:\eda\app\prd\cadence_setup\util\DesignChecker\cc2defaults.ini
+[INFO] Parsing ini file : C:/Users/kevili/AppData/Local/Temp/dcgui_7.ini
+Using Netname config file S:\eda\app\config\NetName.cfg 
+Reading RoHS file : S:\eda\app\prd\cadence_setup\cds_site\..\util\DesignChecker\RoHS_Excemption_Codes.ini 
+Reading marker template file (S:\eda\app\prd\cadence_setup\util\DesignChecker\marker-template.json) 
+Cadence version '16.6'
+[INFO] Localdir : 'C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00'
+[INFO] Business unit : 'gpu'.
+[INFO] Default 'Load Check Threshold' set to : '6'.
+[INFO] Default 'Component Rating Threshold' set to : '0.80'.
+[INFO] Default 'EC Check Level' set to : 'P8'.
+[INFO] 'BUsiness Unit' set to : 'gpu'.
+[INFO] Mode set to : 'GPU'.
+[INFO] Exemption warning limit set to : '400'.
+[INFO] Exemption error limit set to : '200'.
+[INFO] Using cpm file 'C:\Project_Source\Jetson_TX2\P3489\try\p3489_a00_SCH\A00\p3489_a00.cpm'
+[INFO] Design 'p3489_a00'
+[INFO] Date: '2017.03.10'
+[INFO] CPM File date :  '2017.03.10'
+[INFO] Design root path 'C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00'
+[INFO] Design Package Path 'C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00\worklib\p3489_a00\packaged\'.
+Processing global PTF Directory: 
+     S:\Libraries\Concept\released\ptf\automotive:. Done
+     S:\Libraries\Concept\released\ptf\common:.. Done
+     S:\Libraries\Concept\released\ptf\manual:.............. Done
+     C:\Project_Source\Jetson_TX2\P3489\try\p3489_a00_SCH\A00\worklib\p3489_a00\packaged\worklib\part_table: Done
+ 
+
+[INFO] Reading File:  p3489_a00.dcf        .... 
+[INFO] Parsing file 'pstxnet.dat'. 
+
+ WARNING047: NET 'VDDIO_SDMMC3_AP' PROPERTY 'NV_NET_MAX_CURRENT' wrong value '0.150' (missing A?)
+[INFO] Reading File:  pstxprt.dat          .... 
+
+[INFO] Reading File:  compview.dat        .
+[INFO] File 'compview.dat' not found -- Skipped.
+[INFO] Reading File:  funcview.dat        .
+[INFO] File 'funcview.dat' not found -- Skipped.
+(2017.03.02)  Done
+[INFO] Reading ASCII Schematic Page:	 1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20 
+				 21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40 
+				 41  42  43  44  45  46  47  48  49  50  51  52 
+ Report creation date:  2017.03.10
+ Design:  C:\Project_Source\Jetson_TX2\P3489\try\p3489_a00_SCH\A00\p3489_a00.cpm
+
+Running the following checks as per ini file.
+
+Checking the Annotated Schematic for Correctness.
+    Processing ..\sch_1 ....
+      ERROR015: Found 'BKLT.EMI    ' in SKU property, page 8 . csa file path ..\sch_1\page8.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'BKLT.EMI    ' in SKU property, page 8 . csa file path ..\sch_1\page8.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'BKLT.EMI    ' in SKU property, page 8 . csa file path ..\sch_1\page8.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'BKLT.EMI    ' in SKU property, page 8 . csa file path ..\sch_1\page8.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.1V8   ' in SKU property, page 13. csa file path ..\sch_1\page13.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 13. csa file path ..\sch_1\page13.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAM.EMI     ' in SKU property, page 14. csa file path ..\sch_1\page14.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SPI.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SPI.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AUD.EMI     ' in SKU property, page 16. csa file path ..\sch_1\page16.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SLP_UP      ' in SKU property, page 17. csa file path ..\sch_1\page17.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SLP_DOWN    ' in SKU property, page 17. csa file path ..\sch_1\page17.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SDMMC.EMI   ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SDMMC.EMI   ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SDMMC.EMI   ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SDMMC.EMI   ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'EMMC        ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'EMMC        ' in SKU property, page 18. csa file path ..\sch_1\page18.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RAM_CODE    ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RAM_CODE    ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RAM_CODE    ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RAM_CODE    ' in SKU property, page 19. csa file path ..\sch_1\page19.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'VIN_LOW_ADJ ' in SKU property, page 21. csa file path ..\sch_1\page21.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'VIN_LOW_ADJ ' in SKU property, page 21. csa file path ..\sch_1\page21.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY         ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY6210     ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.1V8   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.1V8   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.1V8   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.1V8   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY210      ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY610      ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY610      ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY210      ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY6210     ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'RGMII.3V3   ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY89       ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY89       ' in SKU property, page 22. csa file path ..\sch_1\page22.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 24. csa file path ..\sch_1\page24.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 24. csa file path ..\sch_1\page24.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 24. csa file path ..\sch_1\page24.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 24. csa file path ..\sch_1\page24.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 25. csa file path ..\sch_1\page25.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 25. csa file path ..\sch_1\page25.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 25. csa file path ..\sch_1\page25.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 25. csa file path ..\sch_1\page25.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 26. csa file path ..\sch_1\page26.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 26. csa file path ..\sch_1\page26.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 26. csa file path ..\sch_1\page26.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 26. csa file path ..\sch_1\page26.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'LP4         ' in SKU property, page 26. csa file path ..\sch_1\page26.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 27. csa file path ..\sch_1\page27.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 27. csa file path ..\sch_1\page27.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 27. csa file path ..\sch_1\page27.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CAP_DDR     ' in SKU property, page 27. csa file path ..\sch_1\page27.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'LP4         ' in SKU property, page 27. csa file path ..\sch_1\page27.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 33. csa file path ..\sch_1\page33.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 33. csa file path ..\sch_1\page33.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 33. csa file path ..\sch_1\page33.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CVB_ON.EXT  ' in SKU property, page 36. csa file path ..\sch_1\page36.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CVB_ON.EXT  ' in SKU property, page 36. csa file path ..\sch_1\page36.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CVB_ON.EXT  ' in SKU property, page 36. csa file path ..\sch_1\page36.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CVB_ON.LDO  ' in SKU property, page 38. csa file path ..\sch_1\page38.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AP_PLL      ' in SKU property, page 38. csa file path ..\sch_1\page38.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'AP_PLL      ' in SKU property, page 38. csa file path ..\sch_1\page38.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_BYP    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'ACOK_DLY    ' in SKU property, page 39. csa file path ..\sch_1\page39.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPUVID.BUF  ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPUVID.BYP  ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.OUT     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU.IN      ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'GPU_OVR     ' in SKU property, page 40. csa file path ..\sch_1\page40.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.IN      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.IN      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.IN      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.IN      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.IN      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'PHY210      ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU.OUT     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'CPU_OVR     ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 41. csa file path ..\sch_1\page41.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'VIDOE.GT    ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'VIDOE.BYP   ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.IN      ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC_OVR     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'SOC.OUT     ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 42. csa file path ..\sch_1\page42.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 46. csa file path ..\sch_1\page46.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 46. csa file path ..\sch_1\page46.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'NS          ' in SKU property, page 48. csa file path ..\sch_1\page48.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.PN      ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.PN      ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.PN      ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.BYPS    ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.PN      ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+      ERROR015: Found 'INA.PN      ' in SKU property, page 51. csa file path ..\sch_1\page51.csa Anything other than value of 'SKU=COMMON' for SPB 16.6 and newer will be considered as an error.
+
+  Total 'Check Annotated Schematic' Warning Count: 0
+  Total 'Check Annotated Schematic' Error Count: 264
+
+Checking Assembly Field for Correctness: 
+  Total 'Check Assembly Field' Warning Count: 766
+  Total 'Check Assembly Field' Error Count: 0
+
+Checking for Obsolete/Bad Part(s) [Component de-rating =  80%]:
+  Total 'Check for Bad Parts' Warning Count: 1
+  Total 'Check for Bad Parts' Error Count: 3
+
+Checking for Bus Swap Nets:
+  Total 'Check Bus Swapping' Warning Count: 0
+  Total 'Check Bus Swapping' Error Count: 0
+
+Checking for MLCC on 12V Rails (Pack Type 0805 and larger) :
+  Total 'Check MLCC CAPS' Warning Count: 0
+  Total 'Check MLCC CAPS' Error Count: 0
+
+Checking for Compliance [passing level: P8]
+
+  Total 'Check Compliance' Warning Count: 2
+  Total 'Check Compliance' Error Count: 5
+
+Checking Component in the design database:
+  Total 'Check Components' Warning Count: 37
+  Total 'Check Components' Error Count: 9
+
+Checking for Cross-Referencer information.
+    Crefer created 'creferhdl.lst' on 'Mar 8 15:23:34 2017'
+    Crefer created 'cref.log' on 'Mar 8 15:23:34 2017'
+
+  Total 'Check Cross Reference' Warning Count: 55
+  Total 'Check Cross Reference' Error Count: 0
+
+Checking for PSL:
+  Total 'Check PSL' Warning Count: 63
+  Total 'Check PSL' Error Count: 0
+  Total 'Check vector nets or out of bound bus nets' Warning Count: 0
+  Total 'Check vector nets or out of bound bus nets' Error Count: 8
+
+Checking for Component Lifecycle: 
+ LIFECYCLE value not found, not packaged or local symbol/part table:
+ LIFECYCLE state 'Validation' may cause issues with RELEASE ECO:
+  Total 'Check LifeCycle' Warning Count: 36
+  Total 'Check LifeCycle' Error Count: 6
+
+Checking Net Loading (Threshold = 6):
+  Total 'Check Load' Warning Count: 11
+  Total 'Check Load' Error Count: 0
+
+Checking for other information:
+  Total 'Check Miscellaneous' Warning Count: 0
+  Total 'Check Miscellaneous' Error Count: 0
+
+Checking for No-Connect Pin:
+  Total 'Check No-connect Pin' Warning Count: 0
+  Total 'Check No-connect Pin' Error Count: 0
+
+Checking Net Drive Source:
+  Total 'Check Net Drivers' Warning Count: 0
+  Total 'Check Net Drivers' Error Count: 11
+
+Checking for Net Naming Convention Correctness: 
+  Total 'Check Net Name' Warning Count: 0
+  Total 'Check Net Name' Error Count: 404
+
+Checking Net Property:
+    ERROR025: net 'AP_WAKE_MODEM', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'AUD_INT_L', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'AUD_MCLK_L', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR020: 'NV_NET_MAX_CURRENT' re-defined for net 'AVDD_DSI_CSI_1V2':      page 6(0.1825A)
+      page 37(0.1825A)
+
+    ERROR020: 'VOLTAGE' re-defined for net 'AVDD_DSI_CSI_1V2':      page 6(1.2V)
+      page 37(1.2V)
+
+    ERROR020: 'MIN_LINE_WIDTH' re-defined for net 'AVDD_DSI_CSI_1V2':      page 6(0.400)
+      page 37(0.400)
+
+    ERROR025: net 'AVDD_EPHY_PLL', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'CAMRQ_MCLK_L', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'CAN1_ERR', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DAP3_LRCLK_AP', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DAP4_DOUT', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DDR0_DMI7', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DDR1_DMI4', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DDR1_DMI7', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DIRECTDC_OUT3', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DP_AUX_CH1_AP_N', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DP_AUX_CH1_AP_P', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'DSPK_OUT_DAT', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'ENETPHY_INT', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'FAN_PWM', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'JTAG_AP_TCK', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'JTAG_RTCK', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR025: net 'NVJTAG_AP_SEL', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR020: 'NV_NETCLASS' re-defined for net 'RGMII_RXD3':      page 13(50OHM_NETCLASS1)
+      page 22(50OHM_NETCLASS1)
+
+    ERROR020: 'NV_NETCLASS' re-defined for net 'RGMII_TXD1':      page 13(50OHM_NETCLASS1)
+      page 22(50OHM_NETCLASS1)
+
+    ERROR025: net 'SDMMC1_CMD', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    WARNING023: net 'SNN_BST2_OVR2_CPU', 'MIN_LINE_WIDTH' property found on SNN, should be removed.
+    WARNING023: net 'SNN_DRVH2_OVR2_CPU', 'MIN_LINE_WIDTH' property found on SNN, should be removed.
+    WARNING023: net 'SNN_SW_CPU_PH2', 'MIN_LINE_WIDTH' property found on SNN, should be removed.
+    ERROR020: 'NV_NETCLASS' re-defined for net 'SYS_RESET_IN_L':      page 8(50OHM_NETCLASS2)
+      page 39(50OHM_NETCLASS2)
+
+    ERROR025: net 'SYS_RST_IN_AP', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR020: 'DIFFERENTIAL_PAIR' re-defined for net 'THERM_D_N':      page 2(THERM_D)
+      page 50(THERM_D)
+
+    ERROR020: 'DIFFERENTIAL_PAIR' re-defined for net 'THERM_D_P':      page 2(THERM_D)
+      page 50(THERM_D)
+
+    ERROR025: net 'TOUCH_INT_3V3', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR020: 'NV_NETCLASS' re-defined for net 'UART4_CTS_AP_L':      page 15(50OHM_NETCLASS2)
+      page 20(50OHM_NETCLASS2)
+
+    ERROR020: 'NV_NETCLASS' re-defined for net 'UART4_RTS_AP_L':      page 15(50OHM_NETCLASS2)
+      page 20(50OHM_NETCLASS2)
+
+    ERROR020: 'NV_NETCLASS' re-defined for net 'UART4_RX_AP':      page 15(50OHM_NETCLASS2)
+      page 20(50OHM_NETCLASS2)
+
+    ERROR020: 'NV_NETCLASS' re-defined for net 'UART4_TX_AP':      page 15(50OHM_NETCLASS2)
+      page 20(50OHM_NETCLASS2)
+
+    ERROR025: net 'USB_REXT', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+    ERROR020: 'MIN_LINE_WIDTH' re-defined for net 'VDD_1V8_AP':      page 18(0.400)
+      page 47(0.400)
+
+    ERROR020: 'NV_NET_MAX_CURRENT' re-defined for net 'VDD_1V8_AP':      page 18(0.109A)
+      page 47(0.1A)
+
+    ERROR020: 'MIN_LINE_WIDTH' re-defined for net 'VDD_5V0_SYS':      page 37(0.400)
+      page 46(0.400)
+
+    ERROR020: 'VOLTAGE' re-defined for net 'VDD_5V0_SYS':      page 37(5V)
+      page 46(5)
+
+    ERROR020: 'VOLTAGE' re-defined for net 'VDD_HDMI_1V05':      page 12(<<OCC_ONLY>>)
+      page 38(1.05V)
+
+    ERROR020: 'NV_NET_MAX_CURRENT' re-defined for net 'VDD_HDMI_1V05':      page 12(<<OCC_ONLY>>)
+      page 38(0.450A)
+
+    ERROR025: net 'XTAL_OUT', 'NV_SOURCE_POWER_NET' can not co-exist with 'NV_NETCLASS'.
+  Total 'Check Net Property' Warning Count: 3
+  Total 'Check Net Property' Error Count: 43
+
+Checking Off Page / Local Net Re-use:
+  Total 'Check Off Page' Warning Count: 6
+  Total 'Check Off Page' Error Count: 0
+
+Checking for POWER Rails and Ground interconnect.
+  Total 'Check Rail Ground Interconnect' Warning Count: 0
+  Total 'Check Rail Ground Interconnect' Error Count: 0
+
+Checking Single Node Net:
+  Total 'Single Node Net' Warning Count: 8
+  Total 'Single Node Net' Error Count: 0
+
+Checking for Nets/buses with Square brackets:
+
+  Total 'Net Names with Square Brackets' Warning Count: 0
+  Total 'Net Names with Square Brackets' Error Count: 0
+
+Checking for Maximum Temperature Limit: 
+
+  Total 'Check max temperature limit' Warning Count: 20
+  Total 'Check max temperature limit' Error Count: 4
+
+Checking for Un-Named Nets:
+
+  Total 'Check Un-named Nets' Warning Count: 1
+  Total 'Check Un-named Nets' Error Count: 0
+
+Checking power nets for VOLTAGE and NV_NET_MAX_CURRENT properties.
+  Total 'Check Voltage and NV_NET_MAX_CURRENT' Warning Count: 0
+  Total 'Check Voltage and NV_NET_MAX_CURRENT' Error Count: 85
+
+
+successfully wrote Component Properties: '../CompProperties.txt'
+successfully wrote Netlist Report: 'design_netlist.rpt'
+successfully wrote Design Report: 'design_report.rpt'

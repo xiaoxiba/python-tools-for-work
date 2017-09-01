@@ -1,0 +1,45 @@
+Starting to read C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstchip.dat 
+   Finished reading C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstchip.dat (00:00:03.31)
+Starting to read C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstxprt.dat 
+   Finished reading C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstxprt.dat (00:00:00.11)
+Starting to read C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstxnet.dat 
+   Finished reading C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/pstxnet.dat (00:00:00.06)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialcnet.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialcnet.dat (00:00:00.02)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialbonl.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialbonl.dat (00:00:00.01)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialcprt.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialcprt.dat (00:00:00.00)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialstf.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialstf.dat (00:00:00.00)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialpgnd.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialpgnd.dat (00:00:00.00)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialpgnd_new.dat 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/dialpgnd_new.dat (00:00:00.00)
+Starting to generate C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/scald.xref 
+   Finished generating C:/Project_Source/Jetson_TX2/P3489/try/p3489_a00_SCH/A00/worklib/p3489_a00/packaged/scald.xref (00:00:00.03)
+
+SCALD Lists Interface run on Mar 10 20:12:42 2017
+   DESIGN NAME : 'P3489_A00'
+   PACKAGING ON 10-Mar-2017 AT 19:57:23
+
+   DIRECTORIES  <none>
+   LIBRARIES  'p3489_a00_lib' 'nv_standard' 'standard' 'analog' 'clocks'
+              'digital' 'discrete' 'electro_mechanic' 'logic' 'mechanic'
+              'memory' 'optocouplers' 'power_supply' 'protection_devices'
+              'batteries' 'programmable_logic' 'source' 'sourcstm'
+              'voltage_probe'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   OVERSIGHTS ON
+   SINGLE_NODE_NETS OFF
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:05:58
+elapsed time  0:00:03
+
